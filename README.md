@@ -14,7 +14,7 @@ Traditional TLS over TCP ensures strong security but suffers from latency due to
 * OpenSSL 3.5 or greater
 
 ### Executing program
-
+* Navigate to the path of the server and client files
 * Create the certificate
 ```
 openssl req -x509 -newkey rsa:2048 -nodes \
